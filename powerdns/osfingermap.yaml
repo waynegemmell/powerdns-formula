@@ -32,6 +32,10 @@ Debian-8:
   repo_signedby: ""
 
 # os: Ubuntu
+Ubuntu-24.04:
+  repo_aptkey: False
+  repo_signedby: signed-by=/etc/apt/keyrings/powerdns.gpg
+
 Ubuntu-22.04:
   repo_aptkey: False
   repo_signedby: signed-by=/etc/apt/keyrings/powerdns.gpg
